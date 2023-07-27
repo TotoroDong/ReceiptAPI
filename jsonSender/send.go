@@ -21,6 +21,7 @@ func main() {
 
 	response, err := http.Post("http://localhost:8080/receipts/process", "application/json", bytes.NewBuffer(byteValue))
 
+	//Err handling
 	if err != nil {
 		fmt.Printf("The HTTP request failed with error %s\n", err)
 	} else {
