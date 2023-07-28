@@ -59,6 +59,8 @@ or
 `Invoke-WebRequest -Uri "http://localhost:8080/receipts/process" -Method POST -ContentType "application/json" -Body (Get-Content -Path "C:\Users\dc872\Desktop\Goproject\morning-recepit.json" -Raw)
 `
 
+The point function is restructured to allow for printing of amount point gain by each rule. 
+This is solely for debugging purposes and the performance of the code could possibliy improve without such struct.
 The learning process continues!
 
 # Contact
